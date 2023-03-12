@@ -186,7 +186,7 @@ img{
 
 @media screen and (max-width: 450px) {
 body {
-     font-size: 0.9em;
+     font-size: 0.7em;
 }
     
 .bayan__accordion {
@@ -194,7 +194,7 @@ body {
 }
     
 .bayan__heading {
-     font-size: 1.7em;
+    font-size: 1.3em;
 }
     
 .bayan__name {
