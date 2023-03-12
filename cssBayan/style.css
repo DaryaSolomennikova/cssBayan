@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 1.3em;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #323030;
+  }
+  
+  input::-ms-clear {
+    font-family: 'Alatsi';
+    display: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    margin-top: 0.8em;
+    border-radius: 3%;
+  }
+  
+  h1 {
+    color: #c29545;
+  }
+
+  @font-face {
+    font-family: 'Alatsi';
+    src: url('/cssBayan/fonts/Alatsi-Regular.woff2') format('woff2'),
+      url('/cssBayan/fonts/Alatsi-Regular.woff') format('woff'),
+      url('/cssBayan/fonts/Alatsi-Regular.ttf') format('ttf'),
+      url('/cssBayan/fonts/Alatsi-Regular.eot') format('eot');
+  }
